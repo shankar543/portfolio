@@ -199,3 +199,19 @@ table img:hover {
   font-size: 1.4em;
   color: white
 }
+
+@media screen and (max-width:300px) {
+  nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
